@@ -10,7 +10,6 @@
  * }
  */
 type node = ListNode | null;
-
 let removeNthFromEnd = (head: node, n: number): node => {
     let totalCnt: number = 0;
     let cnt: number = 1;
